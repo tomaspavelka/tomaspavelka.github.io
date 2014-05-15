@@ -521,6 +521,9 @@ ul.social li a:hover {
   text-decoration: underline;
 }
 /* line 172, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.postachio {
+  background-image: url("../images/networks/postachio_32.png");
+}
 ul.social li a.blogger {
   background-image: url("../images/networks/blogger_32.png");
 }
