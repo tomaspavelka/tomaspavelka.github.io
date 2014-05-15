@@ -1,0 +1,554 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require partials/_html5boilerplate
+ *= require_self
+*/
+/* normalize.css v1.0.1 | MIT License | git.io/normalize */
+/* line 2, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+/* line 3, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 4, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 5, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 6, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 7, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* line 8, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 9, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 10, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 11, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 12, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: .83em 0;
+}
+
+/* line 13, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 14, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 15, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h5 {
+  font-size: .83em;
+  margin: 1.67em 0;
+}
+
+/* line 16, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+h6 {
+  font-size: .75em;
+  margin: 2.33em 0;
+}
+
+/* line 17, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 18, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 19, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 20, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 21, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 22, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+p, pre {
+  margin: 1em 0;
+}
+
+/* line 23, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  _font-family: 'courier new',monospace;
+  font-size: 1em;
+}
+
+/* line 24, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 25, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 26, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 27, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 28, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 29, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 30, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 31, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+dl, menu, ol, ul {
+  margin: 1em 0;
+}
+
+/* line 32, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 33, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+menu, ol, ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 34, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 35, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 36, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 37, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 38, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 39, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 40, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 41, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 42, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 43, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 44, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 45, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 46, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 47, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 48, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 49, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 50, /Users/Mick/Documents/Projects/TomasPavelka/views/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 16, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+body {
+  background: #d0ecf0 url("../images/layout/burst.png") no-repeat center top;
+  color: #667;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 14px;
+}
+@media only screen and (max-width: 450px) {
+  /* line 16, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  body {
+    font-size: 15px;
+  }
+}
+
+/* line 26, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container {
+  margin: 80px auto;
+  max-width: 450px;
+}
+@media only screen and (max-width: 450px) {
+  /* line 26, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  #page-container {
+    margin: 0;
+  }
+}
+/* line 32, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 15px #a0bcc3;
+  -moz-box-shadow: 0 0 15px #a0bcc3;
+  box-shadow: 0 0 15px #a0bcc3;
+  background-color: #FFF;
+  overflow: hidden;
+}
+@media only screen and (max-width: 450px) {
+  /* line 32, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  #page-container #page {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+}
+/* line 40, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #header {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f3fcfc));
+  background-image: -webkit-linear-gradient(#ffffff, #f3fcfc);
+  background-image: -moz-linear-gradient(#ffffff, #f3fcfc);
+  background-image: -o-linear-gradient(#ffffff, #f3fcfc);
+  background-image: linear-gradient(#ffffff, #f3fcfc);
+  overflow: hidden;
+  *zoom: 1;
+  padding: 15px;
+}
+/* line 45, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #header img {
+  border: 1px solid #D0ECF0;
+  float: left;
+  padding: 5px;
+}
+/* line 50, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #header h1, #page-container #page #header strong {
+  display: block;
+  font-size: 22px;
+  margin: 10px 0 10px 85px;
+}
+/* line 54, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #header h1 a, #page-container #page #header strong a {
+  color: #677;
+  text-decoration: none;
+}
+/* line 59, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #header p {
+  color: #719DA3;
+  font-size: 17px;
+  line-height: 22px;
+  margin: 8px 0 0 85px;
+}
+/* line 66, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav {
+  background-color: #E2F3F6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2f3f6), color-stop(100%, #d4edf1));
+  background-image: -webkit-linear-gradient(#e2f3f6, #d4edf1);
+  background-image: -moz-linear-gradient(#e2f3f6, #d4edf1);
+  background-image: -o-linear-gradient(#e2f3f6, #d4edf1);
+  background-image: linear-gradient(#e2f3f6, #d4edf1);
+  border-top: 1px solid #D0ECF0;
+}
+/* line 70, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav ul {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+  padding: 0 10px;
+}
+/* line 74, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav ul li {
+  display: block;
+  float: left;
+}
+/* line 77, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav ul li.current_page_item a {
+  background: url("../images/layout/nav_active.png") no-repeat center bottom;
+  color: #AEC7CB;
+}
+/* line 81, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav ul li a {
+  color: #677;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+/* line 87, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page nav ul li a:hover, #page-container #page nav ul li a:active {
+  text-decoration: underline;
+}
+/* line 94, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #content {
+  line-height: 22px;
+  padding: 15px;
+}
+/* line 97, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #content h1 {
+  font-size: 22px;
+  margin: 0;
+}
+/* line 101, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#page-container #page #content a {
+  border-bottom: 1px dotted #A2C5CA;
+  color: #55AABB;
+  text-decoration: none;
+}
+
+/* line 110, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#footer {
+  color: #A0C4C9;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 450px) {
+  /* line 110, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  #footer {
+    display: none;
+  }
+}
+/* line 118, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+#footer a {
+  color: #A0C4C9;
+  text-decoration: none;
+}
+
+/* line 127, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social {
+  overflow: hidden;
+  *zoom: 1;
+  margin: -15px;
+  padding: 0;
+}
+/* line 131, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f3fcfc));
+  background-image: -webkit-linear-gradient(#ffffff, #f3fcfc);
+  background-image: -moz-linear-gradient(#ffffff, #f3fcfc);
+  background-image: -o-linear-gradient(#ffffff, #f3fcfc);
+  background-image: linear-gradient(#ffffff, #f3fcfc);
+  border-right: 1px solid #D0ECF0;
+  border-top: 1px solid #D0ECF0;
+  display: block;
+  float: left;
+  width: 224px;
+}
+@media only screen and (max-width: 450px) {
+  /* line 131, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  ul.social li {
+    float: none;
+    width: auto;
+  }
+  /* line 141, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  ul.social li:first-child {
+    border-top: 0 !important;
+  }
+}
+/* line 145, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li.alt {
+  border-right: 0;
+  margin-right: 0;
+  width: 225px;
+}
+@media only screen and (max-width: 450px) {
+  /* line 145, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  ul.social li.alt {
+    width: auto;
+  }
+}
+/* line 153, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li.first {
+  border-top: 0;
+}
+@media only screen and (max-width: 450px) {
+  /* line 153, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+  ul.social li.first {
+    border-top: 1px solid #D0ECF0;
+  }
+}
+/* line 159, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a {
+  color: #667;
+  background-position: 18px;
+  background-repeat: no-repeat;
+  border: 0 !important;
+  display: block;
+  font-weight: bold;
+  padding: 18px 18px 18px 62px;
+  text-decoration: none;
+}
+/* line 168, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a:hover {
+  color: #719DA3;
+  text-decoration: underline;
+}
+/* line 172, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.blogger {
+  background-image: url("../images/networks/blogger_32.png");
+}
+/* line 175, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.facebook {
+  background-image: url("../images/networks/facebook_32.png");
+}
+/* line 178, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.flickr {
+  background-image: url("../images/networks/flickr_32.png");
+}
+/* line 181, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.foursquare {
+  background-image: url("../images/networks/foursquare_32.png");
+}
+/* line 184, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.gowalla {
+  background-image: url("../images/networks/gowalla_32.png");
+}
+/* line 187, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.lastfm {
+  background-image: url("../images/networks/lastfm_32.png");
+}
+/* line 190, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.linkedin {
+  background-image: url("../images/networks/linkedin_32.png");
+}
+/* line 193, /Users/Mick/Documents/Projects/TomasPavelka/views/application.scss */
+ul.social li a.twitter {
+  background-image: url("../images/networks/twitter_32.png");
+}
